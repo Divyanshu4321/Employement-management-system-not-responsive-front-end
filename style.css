@@ -1,0 +1,392 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    font-family:cursive;
+    background-image: url(img/hand-choose-cube-wooden-block-stack-with-lightbulb-human-icon-stack_619210-224.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    transition: 0.5s;
+
+}
+
+a{
+    text-decoration: none;
+}
+.headerp
+{
+    padding-top: 1%;
+    float: left;
+    height: 7.5%;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    background-color: black ;
+    opacity: 1;
+}
+.header , h3
+{
+    margin-top: 9%;
+}
+div > img
+{
+    background-color:  orangered;
+    width: 10%;
+    height: 70%;
+    margin-right: 5%;
+    float: left;
+}
+div > a > button
+{
+    float: left;
+    font-weight: 300;
+    width: 8%;
+    height: 80%;
+    margin-left: 2%;
+    border-radius: 20px;
+    border: 2PX Solid white;
+    cursor: pointer;
+    
+}
+div > a > button:hover
+{
+    border: 2px solid black !important;
+}
+.signupbtn
+{
+    float: left;
+    font-weight: bold;
+    width: 8%;
+    height: 80%;
+    margin-left: 2%;
+    border-radius: 20px;
+    border: 2PX Solid white;
+    cursor: pointer;
+    background-color: orangered;
+    color: black;
+}
+.signupbtn:hover
+{
+    color: white;
+    transition: 0.5s;
+}
+
+.btnlogin
+{
+    color: white;
+    margin-left:30%;
+    background-color: transparent;
+
+}
+.btnlogin:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.headercc
+{
+    float: left;
+    width: 8%;
+    height: 75%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 0.5%;
+    font-weight: 100;
+
+}
+.headercc:hover
+{
+    background-color: whitesmoke;
+    color: orangered;
+    transition: 0.4s;
+}
+/* main section */
+
+.cardp
+{
+    float: left;
+    width: 100%;
+    height: 90%;
+}
+.cardc
+{
+    transition: 0.2s;
+    float: left;
+    width: 17%;
+    height: 50%;
+    margin-left: 3%;
+    margin-top: 2.5%;
+    background-color:black;
+    color: white;
+    filter: blur(px);
+    padding-left: 2%;
+    padding-top: 1%;
+    border-radius: 15px;
+    opacity: 0.8;
+    filter: brightness(10);
+    filter: contrast(10);
+    animation-name:animate ;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+.cardc:hover
+{
+    transition: 0.2s;
+    scale: 1.1;
+}
+
+
+
+@keyframes animate {
+    0%   {opacity: 0;
+    transform: scale(.01)}
+    50%{
+
+        transform: rotate(-20deg);
+    }
+    80%{
+        
+    }
+}
+.FAFA
+{
+    font-size: 180%;
+    color: white;
+    border-radius: 10px;
+    margin: 10%;
+    margin-left: 0;
+    background-color: orangered ;
+    padding: 10px;
+}
+.viewbtn
+{
+    color: red;
+    padding: 0% 2%;
+    width: fit-content;
+    
+}
+@keyframes viewbtn {
+    from{
+        scale: 1.5;
+    }
+    to{
+        scale: 1;
+    }
+}
+.viewbtn:hover
+{
+    background-color: orangered;
+    color: white;
+    scale: 1;
+    animation-name: viewbtn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1; 
+}
+.cardcc
+{
+    animation-name:animate ;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    float: left;
+    width: 24.5%;
+    height: 84%;
+    margin-left: 3%;
+    margin-top: 2.5%;
+    background-color:black;
+    color: white;
+    filter: blur(px);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    border-radius: 15px;
+    opacity: 0.8;
+    transition: 0.2s;
+
+}
+.cardcc:hover
+{
+    transition: 0.2s;
+    scale: 1.05;
+}
+.cardcc >div > img
+{
+
+    width:15%;
+    height: 75%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+.cardcc > div >h3
+{
+    margin-top: 9%;
+    margin-left: 5%;
+   display: inline-block;
+}
+.cardcc > div >h4
+{
+    margin-top: 0%;
+    margin-left: 15%;
+   display: inline-block; 
+   background-color: orangered;
+   color: black;
+   padding: 1%;
+}
+.hero-text
+{
+    animation-name:animate2 ;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    position: absolute;
+    top:19%;
+    left: 25%;
+}
+@keyframes animate2 {
+    0% {
+        opacity: 0;
+        transform: scale(.01);
+    }
+        50% {
+            transform: scale(.01);
+            transform: rotate(-20deg);
+        }
+        80%{
+            transform: scale(.05);
+        }
+}
+.hero-text >h1
+{
+    color:gradient(white);
+    padding: 10px 20px;
+}
+.hero-text > h1 > span
+{
+    color: orangered;
+    background-color: black;
+    padding: 0 20px;
+}
+.wdesigner
+{   
+
+    transition: 0.5s;
+}
+.wdesigner:hover
+{
+    padding: 10px;
+    color: white !important;
+    transition: 0.5s;
+    font-size: 110%;
+}
+
+.topemployep
+{
+    transition: 0.5s;
+    width: 100%;
+    height: 12%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    border-radius: 20px;
+}
+.topemployep:hover
+{
+    transition: 0.5s;
+    background-color: orangered;
+    padding-top: -50px;
+    .topht
+    {
+        color: black;
+    }
+    .wdesigner
+    {
+        border-radius: 10px;
+        background-color: black;
+        padding: 10px;
+        color: white !important;
+        transition: 0.5s;
+        font-size: 110%;
+    }
+}
+/* login page */
+
+
+
+
+
+
+.bodylp
+{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    background-color: rgb(113, 52, 252);
+    font-family:cursive;
+    background-image: url(img/login-blur.png);
+    backdrop-filter: blur(50px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    top: 0;
+}
+.bodyp
+{
+    font-size: 80%;
+    transform: translate(120% ,16%);
+    width: 30%;
+    height: 80%;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 00px 00px 40px 2px orangered;
+    border-radius: 10px;
+    color: white;
+    /* filter:blur(100px);
+    opacity: 0.7; */
+}
+.input
+{
+    margin-left: 5%;
+    color: black;
+    height: 25px;
+    width: 30%;
+    padding-left: 2%;
+
+}
+.inputbtn
+{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    width: 30%;
+    height: 40px;
+    margin: 3%;
+}
+.fp{
+    letter-spacing: 2px;
+    color: black;
+    text-shadow: 02px 2px 15px;
+}
+.socialimg
+{
+    width: 8%;
+    margin: 5%;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.user
+{
+    text-shadow: 02px 2px 15px;
+
+}
+.login
+{
+    text-shadow: 20px 20px 25px black;
+
+}
